@@ -1,0 +1,57 @@
+body{
+    background-image: url(/img/1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#box{
+    align-items: center;
+    text-align: justify;
+    padding: 4%;
+    margin-top: 14%;
+    border: 1px solid rgb(245, 94, 94);
+    width: 20%;
+    margin-left: 35%;
+    background-color: rgba(187, 154, 154, 0.5);
+    border-radius: 5%;
+}
+#box-label{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(46, 3, 3);
+    font-size: 20px;
+    text-align: justify;
+}
+#number{
+    color: red;
+}
+#reset{
+    background-color: rgba(187, 154, 154, 0.5);
+    font-size: 20px;
+    padding: 0.7%;
+    border-radius: 17%;
+    border: 1px solid rgb(245, 94, 94);
+    margin-left: 39%;
+    margin-top: 2%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 6%;
+}
+#add{
+    background-color: rgba(187, 154, 154, 0.5);
+    font-size: 20px;
+    padding: 1%;
+    border-radius: 100%;
+    width: 4%;
+    margin-left: 9%;
+    margin-top: 2%;
+    border: 1px solid rgb(245, 94, 94);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    
+}
+#add:hover{
+    cursor: pointer;
+    background-color: rgb(54, 241, 126); ;
+}
+#reset:hover{
+    cursor: pointer;
+    background-color: rgb(221, 21, 21); ;
+}
